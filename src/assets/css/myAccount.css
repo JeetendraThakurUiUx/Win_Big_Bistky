@@ -795,7 +795,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 
   @media (max-width: 768px) {
-    
+
     .tabs-box {
       margin-bottom: 40px;
     }
@@ -874,19 +874,21 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         clip-path: none;
       }
     }
-.tabs-box{
-  .tab-label {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.circle {
-display: none;
- 
-}
-}
+    .tabs-box {
+      .tab-label {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .circle {
+        display: none;
+
+      }
+    }
+
     .tabs-box button {
       font-size: 14px;
       padding: 6px 4px;

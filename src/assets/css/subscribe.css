@@ -3,6 +3,7 @@
   margin: 0 auto;
   position: relative;
   z-index: 1;
+
   .subscribe-box {
     position: relative;
 
@@ -16,7 +17,7 @@
       border-radius: 80px 0px 0px 80px;
     }
 
-    > img {
+    >img {
       min-height: 250px;
     }
   }
@@ -49,6 +50,7 @@
       text-shadow: 8px 4px 12px rgba(0, 0, 0, 0.46);
       margin-bottom: 12px;
     }
+
     p {
       font-family: var(--font-montserrat);
       font-weight: var(--fw-600);
@@ -61,16 +63,19 @@
     .input {
       position: relative;
       margin-bottom: 24px;
+
       &.error input {
         border-color: var(--color-red) !important;
       }
     }
+
     .email-icon {
       position: absolute;
       top: 50%;
       left: 12px;
       transform: translate(0%, -50%);
     }
+
     input {
       height: 44px;
       background: #72005a;
@@ -96,9 +101,11 @@
       top: 100%;
       color: var(--color-red);
     }
+
     .btn-pink-wrapper {
       .btn-pink {
         max-width: 160px;
+
         .text {
           font-size: var(--fs-20);
         }
@@ -106,17 +113,21 @@
     }
   }
 }
+
 @media (max-width: 1480px) {
   .subscribe_section {
     padding: 0;
+
     & .subscribe-text {
       h2 {
         font-size: 38px;
       }
+
       p {
         font-size: var(--fs-16);
         margin-bottom: 16px;
       }
+
       .input {
         margin-bottom: 16px;
       }
@@ -132,17 +143,21 @@
       .input {
         margin-bottom: 10px;
       }
+
       input {
         height: 38px;
         font-size: var(--fs-14);
       }
+
       h2 {
         font-size: var(--fs-34);
       }
+
       p {
         font-size: var(--fs-14);
         margin-bottom: 10px;
       }
+
       & .btn-pink-wrapper {
         .btn-pink {
           max-width: 130px;
@@ -151,12 +166,14 @@
     }
   }
 }
+
 @media (max-width: 992px) {
   .subscribe_section {
     .subscribe-box {
       margin: auto;
       max-width: fit-content;
     }
+
     .row {
       row-gap: 60px;
     }
@@ -167,16 +184,20 @@
   .subscribe_section {
     & .subscribe-text {
       max-width: 60%;
+
       h2 {
         font-size: var(--fs-34);
       }
+
       p {
         font-size: var(--fs-14);
         margin-bottom: 10px;
       }
+
       .input {
         margin-bottom: 10px;
       }
+
       input {
         font-size: var(--fs-14);
         height: 34px;
@@ -185,6 +206,7 @@
       & .btn-pink-wrapper {
         & .btn-pink {
           max-width: 120px;
+
           .text {
             font-size: var(--fs-16);
           }
@@ -193,19 +215,23 @@
     }
   }
 }
+
 @media (max-width: 576px) {
   .subscribe_section {
     .row {
       row-gap: 30px;
     }
+
     & .subscribe-text {
       h2 {
         font-size: var(--fs-28);
       }
+
       p {
         font-size: var(--fs-12);
         margin-bottom: 10px;
       }
+
       input {
         max-width: 260px;
         font-size: var(--fs-12);
@@ -227,6 +253,7 @@
       .input {
         margin-bottom: 8px;
       }
+
       input {
         height: 32px;
         font-size: var(--fs-12);
@@ -246,6 +273,7 @@
       & .btn-pink-wrapper {
         .btn-pink {
           max-width: 100px;
+
           .text {
             font-size: var(--fs-16);
           }

@@ -8,9 +8,11 @@
   .row {
     row-gap: 100px;
   }
+
   .gamer-section {
     position: relative;
-    > img {
+
+    >img {
       top: -10%;
       right: 0;
       position: absolute;
@@ -18,6 +20,7 @@
       width: 50%;
     }
   }
+
   .gamer-box {
     position: relative;
     mask-image: url("../images/gamer-layer.webp");
@@ -28,6 +31,7 @@
     -webkit-mask-repeat: no-repeat;
     max-width: 100%;
     width: 100%;
+
     .green-mask-button {
       text-align: center;
       width: 70%;
@@ -51,11 +55,13 @@
       top: -10%;
     }
   }
+
   .boxes {
     position: relative;
     width: 100%;
     height: 100%;
-    > img {
+
+    >img {
       width: 100%;
       height: auto;
     }
@@ -70,6 +76,7 @@
       left: 0;
       transform: translate(0px, 0%);
     }
+
     .over-img-2 {
       right: 0;
       transform: translate(0px, 0%);
@@ -98,12 +105,14 @@
       line-height: 1.4;
       color: var(--white);
     }
+
     .layer-content-1 {
       max-width: 380px;
 
       right: 0;
       transform: translate(-20px, -50%);
     }
+
     .layer-content-2 {
       max-width: 390px;
       text-align: end;
@@ -113,11 +122,13 @@
       .btn-pink-wrapper {
         text-align: start;
         transform: scaleX(-1);
+
         .btn-pink {
           .text {
             transform: scaleX(-1);
           }
         }
+
         &:active {
           transform: translateY(1em) scale(0.9) scaleX(-1) !important;
         }
@@ -128,6 +139,7 @@
   .btn-pink-wrapper {
     & .btn-pink {
       max-width: 160px;
+
       .text {
         font-size: var(--fs-20);
       }
@@ -144,9 +156,11 @@
         max-width: 350px;
       }
     }
+
     & .btn-pink-wrapper {
       & .btn-pink {
         max-width: 161px;
+
         .text {
           font-size: var(--fs-20);
         }
@@ -161,6 +175,7 @@
       .over-img {
         max-width: 320px;
       }
+
       .layer-content {
         max-width: calc(100% - 320px);
       }
@@ -168,6 +183,7 @@
       h2 {
         font-size: 36px;
       }
+
       p {
         font-size: var(--fs-16);
         line-height: 1.2;
@@ -182,6 +198,7 @@
       .over-img {
         max-width: 280px;
       }
+
       .layer-content {
         max-width: calc(100% - 280px);
       }
@@ -189,6 +206,7 @@
       h2 {
         font-size: 32px;
       }
+
       p {
         font-size: var(--fs-16);
         line-height: 1.2;
@@ -203,6 +221,7 @@
       .over-img {
         max-width: 240px;
       }
+
       .layer-content {
         max-width: calc(100% - 240px);
       }
@@ -210,6 +229,7 @@
       h2 {
         font-size: 28px;
       }
+
       p {
         font-size: var(--fs-14);
         line-height: 1.2;
@@ -246,6 +266,7 @@
       .layer-content {
         max-width: calc(100% - 280px);
       }
+
       .layer-content-2 {
         transform: translate(10%, -50%);
       }
@@ -253,6 +274,7 @@
       h2 {
         font-size: 38px;
       }
+
       p {
         font-size: var(--fs-14);
       }
@@ -275,6 +297,7 @@
     .row {
       row-gap: 60px;
     }
+
     & .gamer-box {
       .green-mask-button {
         font-size: var(--fs-32);
@@ -282,12 +305,15 @@
     }
   }
 }
+
 @media (max-width: 991px) {
   .popularGame_section {
     padding: 40px 20px 40px 20px;
   }
+
   .refer {
     padding: 80px 30px 0 30px;
+
     & .gamer-box {
       .green-mask-button {
         font-size: var(--fs-20);
@@ -299,6 +325,7 @@
 @media (max-width: 576px) {
   .refer {
     padding: 30px 0 0 0;
+
     .row {
       row-gap: 30px;
     }
@@ -307,17 +334,21 @@
       .over-img {
         max-width: 150px;
       }
+
       .layer-content {
         width: calc(100% - 150px);
       }
+
       .layer-content-2 {
         transform: translate(10%, -50%);
         max-width: 280px;
       }
+
       h2 {
         font-size: 18px;
         margin-bottom: 6px;
       }
+
       p {
         font-size: var(--fs-10);
         margin-bottom: 6px;
@@ -332,9 +363,11 @@
         font-size: 12px;
       }
     }
+
     & .btn-pink-wrapper {
       & .btn-pink {
         max-width: 75px;
+
         .text {
           font-size: var(--fs-12);
         }

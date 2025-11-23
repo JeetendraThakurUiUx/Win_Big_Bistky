@@ -14,11 +14,9 @@
     top: calc(100% - 175px);
     left: 0;
     content: "";
-    background: linear-gradient(
-      180deg,
-      rgba(14, 14, 14, 0) 4.95%,
-      #0e0e0e 100%
-    );
+    background: linear-gradient(180deg,
+        rgba(14, 14, 14, 0) 4.95%,
+        #0e0e0e 100%);
   }
 
   .content {
@@ -170,14 +168,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(
-      90deg,
-      rgba(14, 14, 14, 0) 0%,
-      #0e0e0e 15%,
-      #0e0e0e 50%,
-      #0e0e0e 85%,
-      rgba(14, 14, 14, 0) 100%
-    );
+    background: linear-gradient(90deg,
+        rgba(14, 14, 14, 0) 0%,
+        #0e0e0e 15%,
+        #0e0e0e 50%,
+        #0e0e0e 85%,
+        rgba(14, 14, 14, 0) 100%);
     border: none;
     cursor: pointer;
 
@@ -196,6 +192,7 @@
   0% {
     transform: scale(1);
   }
+
   100% {
     transform: scale(1.08);
   }
@@ -206,12 +203,14 @@
     filter: blur(30px);
     background: rgba(40, 166, 243, 0.4);
   }
+
   50% {
     filter: blur(60px);
     background: rgba(40, 166, 243, 0.9);
     width: 250px;
     height: 250px;
   }
+
   100% {
     filter: blur(30px);
     background: rgba(40, 166, 243, 0.4);
@@ -224,6 +223,7 @@
     transform: translateX(-50%) scale(1);
     filter: blur(40px);
   }
+
   100% {
     opacity: 1;
     transform: translateX(-50%) scale(1.3);
@@ -235,6 +235,7 @@
   0% {
     transform: translateY(0) scale(1);
   }
+
   100% {
     transform: translateY(-40px) scale(1.05);
   }
@@ -244,6 +245,7 @@
   0% {
     transform: translate(0%, 100%) rotate(0deg) translateY(-50px);
   }
+
   100% {
     transform: translate(0%, 100%) rotate(-30deg) translateY(0px);
   }
@@ -253,6 +255,7 @@
   0% {
     transform: translate(0%, -50%) rotate(0deg) translateY(-50px);
   }
+
   100% {
     transform: translate(-100%, -50%) rotate(-45deg) translateY(0px);
   }
@@ -262,18 +265,22 @@
   0% {
     transform: translate(-50%, -50%) rotate(0deg) translateY(-30px);
   }
+
   100% {
     transform: translate(-50%, -50%) rotate(30deg) translateY(0px);
   }
 }
+
 @keyframes bit4Rotate {
-0% {
+  0% {
     transform: translate(0%, -50%) rotate(0deg) translateY(75px) scale(1);
-}
-100% {
+  }
+
+  100% {
     transform: translate(0%, -50%) rotate(20deg) translateY(0px) scale(1.2);
+  }
 }
-}
+
 /* ================== MEDIA QUERIES ================== */
 
 @media (max-width: 1600px) {
@@ -289,11 +296,25 @@
         max-width: 430px;
       }
 
-      .bitcoin-1 { width: 80px; }
-      .bitcoin-2 { width: 75px; }
-      .bitcoin-3 { width: 100px; }
-      .bitcoin-4 { width: 20px; }
-      .bitcoin-5 { width: 170px; }
+      .bitcoin-1 {
+        width: 80px;
+      }
+
+      .bitcoin-2 {
+        width: 75px;
+      }
+
+      .bitcoin-3 {
+        width: 100px;
+      }
+
+      .bitcoin-4 {
+        width: 20px;
+      }
+
+      .bitcoin-5 {
+        width: 170px;
+      }
     }
 
     &::after {
@@ -315,6 +336,7 @@
       h1 {
         transform: translateY(-25px);
       }
+
       img {
         max-width: 348px;
       }
@@ -340,15 +362,30 @@
         }
       }
 
-      .bitcoin-1 { width: 60px; }
-      .bitcoin-2 { width: 55px; }
-      .bitcoin-3 { width: 70px; }
-      .bitcoin-4 { width: 20px; }
-      .bitcoin-5 { width: 120px; }
+      .bitcoin-1 {
+        width: 60px;
+      }
+
+      .bitcoin-2 {
+        width: 55px;
+      }
+
+      .bitcoin-3 {
+        width: 70px;
+      }
+
+      .bitcoin-4 {
+        width: 20px;
+      }
+
+      .bitcoin-5 {
+        width: 120px;
+      }
     }
 
     .btn-pink-wrapper .btn-pink {
       max-width: 150px;
+
       .text {
         font-size: 24px;
       }
@@ -421,11 +458,25 @@
         }
       }
 
-      .bitcoin-1 { width: 45px; }
-      .bitcoin-2 { width: 40px; }
-      .bitcoin-3 { width: 50px; }
-      .bitcoin-4 { width: 15px; }
-      .bitcoin-5 { width: 80px; }
+      .bitcoin-1 {
+        width: 45px;
+      }
+
+      .bitcoin-2 {
+        width: 40px;
+      }
+
+      .bitcoin-3 {
+        width: 50px;
+      }
+
+      .bitcoin-4 {
+        width: 15px;
+      }
+
+      .bitcoin-5 {
+        width: 80px;
+      }
     }
 
     .btn-pink-wrapper .btn-pink {
